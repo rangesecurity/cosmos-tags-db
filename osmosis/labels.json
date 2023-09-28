@@ -29,6 +29,114 @@
         "contributor": "Celatone",
         "description": "Account whitelisted to upload Kado Router contracts"
       }
+    },
+    {
+      "address": "osmo1pq47vuhc9gum8qjht0tamsgluuqjleqprgemhd",
+      "label": "Apollo DAO Account 1",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "contributor": "Celatone",
+        "type": "account"
+      }
+    },
+    {
+      "address": "osmo19377ce3k2893s98xp58vg0jtgtvj5qv405y36l4wf4z2xhnjwh6se8kep3",
+      "label": "ApolloDAO Contract Admin",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "contract",
+        "contributor": "Celatone",
+        "description": "Apollo Safe CW3 multisig contract owned by the Apollo team used as the admin for Apollo Vaults and other contracts."
+      }
+    },
+    {
+      "address": "osmo1jxdhfvhedn3gv8fnmn4crzkevqfkm29me0pnht",
+      "label": "ApolloDAO Deployer",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "account",
+        "contributor": "Celatone",
+        "description": "Account owned by ApolloDAO used to deploy their CW3 multisig and liquid staking contracts."
+      }
+    },
+    {
+      "address": "osmo1wl59k23zngj34l7d42y9yltask7rjlnxgccawc7ltrknp6n52fps94qsjd",
+      "label": "ApolloDAO Dev Multisig",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "contract",
+        "contributor": "Celatone"
+      }
+    },
+    {
+      "address": "osmo18kmnpjw6mj7juw6wmnzdyaa8e2tg9h3mqry0ym",
+      "label": "ApolloDAO Dev Multisig Voter 1",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "account",
+        "contributor": "Celatone",
+        "description": "One of the voter accounts on the ApolloDAO Dev Multisig."
+      }
+    },
+    {
+      "address": "osmo18h47lm65q0r02gcuxe6vslk8u5ftgrl9wrtea6",
+      "label": "ApolloDAO Dev Multisig Voter 2",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "account",
+        "contributor": "Celatone",
+        "description": "One of the voter accounts on the ApolloDAO Dev Multisig."
+      }
+    },
+    {
+      "address": "osmo1yv4shmch4kwtaqmnnrg5ep65r6e05wgq3p2dj4",
+      "label": "ApolloDAO Dev Multisig Voter 3",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "account",
+        "contributor": "Celatone",
+        "description": "One of the voter accounts on the ApolloDAO Dev Multisig."
+      }
+    },
+    {
+      "address": "osmo1w4yv8uvc0neqhxwqsg0qm0axlt8wcms4zqyjwu",
+      "label": "ApolloDAO Dev Multisig Voter 4",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "account",
+        "contributor": "Celatone",
+        "description": "One of the voter accounts on the ApolloDAO Dev Multisig."
+      }
+    },
+    {
+      "address": "osmo18fsecpmq5tuq59k3ezkrrdt6gyvr30lxct0aed",
+      "label": "ApolloDAO Dev Multisig Voter 5",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "account",
+        "contributor": "Celatone",
+        "description": "One of the voter accounts on the ApolloDAO Dev Multisig."
+      }
+    },
+    {
+      "address": "osmo16u56nw6rhdt5wc63ammgdn565q6t825mdcffap",
+      "label": "ApolloDAO Dev Multisig Voter 6",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "Apollo DAO",
+        "type": "account",
+        "contributor": "Celatone",
+        "description": "One of the voter accounts on the ApolloDAO Dev Multisig."
+      }
     }
   ]
 }
