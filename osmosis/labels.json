@@ -1,0 +1,34 @@
+{
+  "_schema": "../labels.schema.json",
+  "addresses": [
+    {
+      "address": "osmo14lr70k43wdry3fxl5ykkh630jhas2nsp8re0e4",
+      "label": "ION DAO Uploader",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "ION DAO",
+        "contributor": "Celatone"
+      }
+    },
+    {
+      "address": "osmo1k8re7jwz6rnnwrktnejdwkwnncte7ek7gt29gvnl3sdrg9mtnqkse6nmqm",
+      "label": "ION DAO Governance",
+      "tags": {
+        "chain": "Osmosis",
+        "protocol": "ION DAO",
+        "contributor": "Celatone",
+        "cw-code": 3
+      }
+    },
+    {
+      "address": "osmo19vxp8vq8qm368dr026qxh8v82satwaf79y235lfv6wmgpwxx8dtskedaku",
+      "label": "Kado Uploader",
+      "tags": {
+        "chain": "Osmosis",
+        "org": "Kado",
+        "contributor": "Celatone",
+        "description": "Account whitelisted to upload Kado Router contracts"
+      }
+    }
+  ]
+}

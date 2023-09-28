@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cosmos Address Labeled Dataset",
+  "description": "A dataset for labeled Cosmos addresses with associated tags.",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "string",
+      "description": "Cosmos address in a valid format."
+    },
+    "label": {
+      "type": "string",
+      "description": "The main label or category for the address."
+    },
+    "tags": {
+      "type": "object",
+      "description": "Additional key-value pairs related to the address.",
+      "properties": {
+        "chain": {
+          "type": "string",
+          "description": "The blockchain chain where this address resides, e.g., 'cosmos-hub', 'osmosis', etc."
+        },
+        "protocol": {
+          "type": "string",
+          "description": "Related protocol or platform, e.g., 'mars', 'astroport', etc."
+        },
+        "org": {
+          "type": "string",
+          "description": "Related organization or entity, e.g., 'coinbase', 'circle', etc."
+        },
+        "contributor": {
+          "type": "string",
+          "description": "The contributor or source which added or verified the record."
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "address",
+    "label"
+  ]
+}
